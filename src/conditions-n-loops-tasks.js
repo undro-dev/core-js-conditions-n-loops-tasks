@@ -226,7 +226,6 @@ function convertNumberToString(numberStr) {
 
   switch ('1') {
     case '1':
-      console.log('1');
       break;
 
     default:
@@ -481,20 +480,7 @@ function rotateMatrix(matrix) {
  *  [-2, 9, 5, -3]  => [-3, -2, 5, 9]
  */
 function sortByAsc(/* arr */) {
-  // if (arr.length <= 1) {
-  //   return arr;
-  // }
-  // const pivot = arr[arr.length - 1];
-  // const leftList = [];
-  // const rightList = [];
-  // for (let i = 0; i < arr.length - 1; i += 1) {
-  //   if (arr[i] < pivot) {
-  //     leftList.push(arr[i]);
-  //   } else {
-  //     rightList.push(arr[i]);
-  //   }
-  // }
-  // return [...sortByAsc(leftList), pivot, ...sortByAsc(rightList)];
+  throw new Error('Not implemented');
 }
 
 /**
